@@ -1,0 +1,212 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+	/* background: #f5f5f5; */
+}
+.xiaomi-box{
+	width: 100%;
+	height: 3.69rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.xiaomi-box img{
+	width: 1.47rem;
+	height: 1.47rem;
+	background: #ff6700;
+	margin-top: 0.9rem;
+	margin-bottom: 0.6rem;
+}
+.xiaomi-box i{
+	font-size: 0.57rem;
+}
+.sjhao-box{
+	width: 100%;
+	height: 1.68rem;
+	margin-top: 0.4rem;
+	display: flex;
+}
+.sjhao-box .left{
+	width:1.68rem;
+	height:1.68rem;
+	margin-left: 0.84rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom:0.02rem solid #d3d3d3;
+}
+.sjhao-box .left i{
+	font-size: 0.48rem;
+}
+.sjhao-box .left span{
+	font-size: 0.51rem;
+}
+.sjhao-box .right{
+	width: 7.35rem;
+	height: 100%;
+	border-bottom:0.02rem solid #d3d3d3;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.sjhao-box .right input{
+	width: 100%;
+	height:50%;
+	outline: none;
+	border:none;
+	background: none;
+	box-sizing: border-box;	
+	font-size: 0.57rem;
+}
+.sjhao-box .right .ts{
+	width: 100%;
+	height:100% ;
+}
+.dxyanzheng-box{
+	width: 100%;
+	height: 1.65rem;
+	display: flex;
+	justify-content: center;
+}
+.dxyanzheng{
+	width: 9.12rem;
+	height: 100%;
+	border-bottom:0.02rem solid #d3d3d3;
+	display: flex;
+}
+.dxyanzheng .left{
+	width: 6.39rem;
+	height: 100%;
+	position: relative;
+}
+.dxyanzheng .left>input{
+	width: 100%;
+	height:50%;
+	outline: none;
+	border:none;
+	background: none;
+	box-sizing: border-box;
+	font-size: 0.57rem;
+}
+.dxyanzheng .left .ts{
+	width: 100%;
+	height:100%;
+}
+.dxyanzheng .right{
+	width: 2.67rem;
+	height: 100%;
+}
+.dxyanzheng .right {
+	font-size: 0.48rem;
+	color: #0f98e1;
+	line-height:1.65rem;
+}
+.dlanniu{
+	width: 100%;
+	height: 1.39rem;
+	margin-top: 0.75rem;
+	display: flex;
+	justify-content: center;
+}
+.dlanniu .anniu{
+	width: 9.15rem;
+	height: 100%;
+	background: #ff6700;
+	border-radius:0.1rem;
+}
+.dlanniu .anniu i{
+	font-size: 0.51rem;
+	line-height:1.39rem;
+	text-align: center;
+	display: block;
+	color: #ffffff;
+}
+.dlanniu1{
+	width: 100%;
+	height: 1.39rem;
+	margin-top: 0.75rem;
+	display: flex;
+	justify-content: center;
+}
+.dlanniu1 .anniu1{
+	width: 9.15rem;
+	height: 100%;
+	border-radius:0.2rem;
+	border:0.02rem solid #d3d3d3;
+}
+.dlanniu1 .anniu1 i{
+	font-size: 0.51rem;
+	line-height:1.39rem;
+	text-align: center;
+	display: block;
+}
+.qita-box{
+	width: 9.09rem;
+	height: 2.5rem;
+	margin-top: 1.2rem;
+	margin-left: 0.87rem;
+}
+.qita-box .qita-top{
+	width: 9.09rem;
+	height: 1.57rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.qita-box .qita-top div{
+	width: 3.30rem;
+	height: 0.01rem;
+	border-bottom: 0.061rem solid #eeeeee;
+}
+.qita-box .qita-top i{
+	font-size: 0.36rem;
+	display: block;
+	margin: 0 0.12rem;
+}
+.qita-box .qita-bottom{
+	width: 9.09rem;
+	height: 0.93rem;
+	display: flex;
+	justify-content: center;
+}
+.qita-box .qita-bottom .tu1 i{
+	color: #ed9090;
+	display: block;
+}
+.qita-box .qita-bottom .tu2 i{
+	color: #6bb6ea;
+	display: block;
+	margin: 0 0.5rem;
+}
+.qita-box .qita-bottom .tu3 i{
+	color: green;
+	display: block;
+}
+.di-box{
+	width: 100%;
+	height: 0.5rem;
+	margin-top: 1.7rem;
+}
+.di-box .kuai{
+	width: 9.09rem;
+	height: 0.5rem;
+	margin-left:0.87rem ;
+	display: flex;
+	justify-content:space-between ;
+}
+.di-box .kuai i{
+	font-size: 0.43rem;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+

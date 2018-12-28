@@ -1,0 +1,137 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+	/* background: #f5f5f5; */
+}
+.sousuo-box{
+	width: 100%;
+	height: 1.2rem;
+	background: #f5f5f5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sousuo-box div{
+	font-size: 0.66rem;
+	margin: 0 0.54rem;
+	color: #9e9e9e;
+}
+.sousuo-box span{
+	width: 7.89rem;
+	height: 0.75rem;
+	background: white;
+	font-size: 0.48rem;
+	color: #9e9e9e;
+}
+.remen{
+	width: 100%;
+	height: 1.2rem;
+	font-size: 0.4rem;
+	line-height: 1.2rem;
+}
+.remen span{
+	margin-left: 0.42rem;
+}
+.tupian{
+	width: 100%;
+	height: 4.53rem;
+}
+.tupian img{
+	width: 100%;
+	height: 100%;
+}
+.tubiaokuai{
+	width: 100%;
+	height: 0.9rem;
+	margin-top: 0.33rem;
+	/* background: #0000FF; */
+	display: flex;
+}
+.tubiaokuai .kuai1{
+	width: 3.06rem;
+	height: 0.9rem;
+	border: 0.01rem solid red;
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+	text-align: center;
+	margin-left: 0.45rem;
+	background: #e6f5e1;
+}
+.tubiaokuai .kuai2{
+	width: 2.46rem;
+	height: 0.9rem;
+	border: 0.01rem solid greenyellow;
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+	text-align: center;
+	margin: 0 0.33rem;
+	background: #f9eae8;
+}
+.tubiaokuai .kuai3{
+	width: 2.46rem;
+	height: 0.9rem;
+	border: 0.01rem solid red;
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+	text-align: center;
+	background: #f3f6ee;
+}
+.tubiaokuai .kuai4{
+	width: 2.3rem;
+	height: 0.9rem;
+	border: 0.01rem solid red;
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+	text-align: center;
+	margin-left: 0.45rem;
+	background: #e6f5e1;
+}
+.tubiaokuai .kuai5{
+	width: 2rem;
+	height: 0.9rem;
+	border: 0.01rem solid red;
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+	text-align: center;
+	margin: 0 0.33rem;
+	background: #f9eae8;
+}
+.tubiaokuai .kuai6{
+	width: 2.3rem;
+	height: 0.9rem;
+	border: 0.01rem solid greenyellow;
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+	text-align: center;
+	background: #f3f6ee;
+}
+.remen1{
+	width: 100%;
+	height: 1.2rem;
+	font-size: 0.4rem;
+	line-height: 1.2rem;
+	margin-top: 0.5rem;
+}
+.remen1 span{
+	margin-left: 0.42rem;
+}
+.box{
+	width: 100%;
+	height: 1.8rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: flex-start;
+}
+.box span{
+	height: 0.84rem;
+	background: #f4f4f4;
+	line-height: 0.84rem;
+	text-align: center;
+	font-size: 0.3rem;
+	display: block;
+	margin: 0 0.25rem 0.18rem ;
+}
+
+

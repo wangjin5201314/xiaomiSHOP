@@ -1,0 +1,47 @@
+/* 脚本开始 */
+.footer{
+	width:100%;
+	height:1.56rem;
+	background:#ffffff;
+	position: fixed;
+	bottom:0;
+	left:0;
+	display: flex;
+	box-shadow: 0 0.1rem 0.01rem 0.2rem rgba(0,0,0,0.09);
+}
+.shouye{
+	width: 25%;
+	height:1.56rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.shouye a img{
+	width: 0.6rem;
+	height: 0.6rem;
+	display: block;
+}
+.shouye a i{
+	font-size: 0.34rem;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+.shouye a .text1{
+	color: orange;
+}
+.shouye a .text2{
+	color: orange;
+}
+.shouye a .text3{
+	color: orange;
+}
+.shouye a .text4{
+	color: orange;
+}
+/* 脚本结束 */

@@ -1,0 +1,421 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+}
+/* 头部开始 */
+.head{
+	width:100%;
+	height:2.12rem;
+	padding: 0 0.4rem;
+	box-sizing: border-box;
+	background:#f2f2f2;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+.head-top{
+	height:1.21rem;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.head-top .logo{
+	height:0.56rem;
+	width:0.74rem;
+}
+.head-top .logo img{
+	width:100%;
+	height:100%;
+	display: block;
+}
+.head-top .sousuo{
+	height:0.96rem;
+	width:7.80rem;
+	background: yellow;
+	background: #fff;
+	border-radius: 0.1rem;
+	box-shadow:0 0 0.3rem 0.01rem rgba(0,0,0,0.1);
+	line-height:0.96rem;
+	display: flex;
+	color:#ababab;
+}
+.head-top .sousuo i{
+	font-size: 0.38rem;
+	display: block;
+	margin:0 0.3rem;
+}
+.head-top .sousuo span{
+	font-size:0.38rem;
+}
+.head-top .my-box{
+	height:0.6rem;
+	width:0.6rem;
+	color:#ababab;
+}
+.head-top .my-box img{
+	width: 0.6rem;
+	height: 0.6rem;
+	display: block;
+}
+.head-bottom{
+	height:0.94rem;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+.head-bottom .left{
+	width:9.6rem;
+	height:100%;
+	overflow: auto;
+}
+.head-bottom .left::-webkit-scrollbar{
+	width:0;
+	height:0;
+}
+.head-bottom .left ul{
+	height:0.94rem;
+	display: flex;
+	font-size:0.38rem;
+	
+} 
+.head-bottom .left>ul>li{
+	flex-shrink: 0;
+	margin:0.2rem 0.4rem;
+	color:rgb(116,116,116);
+}
+.head-bottom .left>ul>li:nth-child(1){
+	margin-left:0;
+}
+.head-bottom .right {
+	width:0.94rem;
+	height:100%;
+	font-size:0.6rem;
+	text-align: center;
+	line-height:0.94rem ;
+	color:#ababab;
+}
+/* 头部结束 */
+/* 轮翻开始 */
+nav{
+	margin-top:1.72rem;
+}
+.lunfan{
+	width:100%;
+	height:5.48rem;
+	overflow: hidden;
+	position:relative;
+}
+.lunfan ul{
+	width:300%;
+	height:100%;
+	background: blue;
+	margin-top: 0.45rem;
+	display: flex;
+}
+.lunfan ul li{
+	width:33.333%;
+	height:100%;
+}
+.lunfan ul li img{
+	width:100%;
+	height:100%;
+}
+.lunfan .point{
+	width:100%;
+	height:0.22rem;
+	position:absolute;
+	bottom:0.3rem;
+	display: flex;
+	justify-content: center;
+}
+.lunfan .point>div{
+	width:0.22rem;
+	height:0.22rem;
+	border-radius: 50%;
+	background:  rgba(255,255,244,0.5);
+	margin-left:0.2rem;
+}
+.lunfan .point .act{
+	background: #fff;
+	margin-left:0;
+}
+/* 轮翻结束 */
+
+/* 图标开始 */
+.tubiao-box{
+	width: 100%;
+	height: 4.58rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.tubiao-box div{
+	width: 20%;
+	height: 50%;
+}
+.tubiao-box div img{
+	width: 100%;
+	height: 100%;
+}
+/* 图标结束 */
+/* 商品开始 */
+ .sp{
+	 width:100%;
+	 height: 7.64rem;
+	 margin:0.18rem 0;
+	 display: flex;
+	 justify-content: space-between;
+ }
+.sp div{
+	width: 49.5%;
+	height: 100%;
+}
+.sp .sp-left img{
+	width: 100%;
+	 height: 100%;
+}
+.sp .sp-right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.sp .sp-right>div{
+	width: 100%;
+	height: 49.5%;
+}
+.sp .sp-right img{
+	width: 100%;
+	height: 100%;
+}
+/* 商品结束 */
+/* 广告开始 */
+.guanggao{
+	width: 100%;
+	height: 4.2rem;
+	background: #0000FF;
+}
+.guanggao img{
+	width: 100%;
+	height: 100%;
+}
+/* 广告结束 */
+/* 超值开始 */
+.chaozhi{
+	width: 100%;
+	height: 6.61rem;
+	background: #0000FF;
+}
+.chaozhi img{
+	width: 100%;
+	height: 100%;
+}
+/* 超值结束 */
+/* 手机开始 */
+.shouji{
+	width: 100%;
+	height: 7.65rem;
+	display: flex;
+	justify-content: space-between;
+}
+.shouji div{
+	width:49.5% ;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.shouji .left img{
+	width:100%;
+	height: 5.4rem;
+}
+.shouji .left .info{
+	width: 100%;
+	height: 2.25rem;
+}
+.shouji .left .info .text{
+	font-size: 0.28rem;
+	margin:0.4rem 0 0 0.32rem ;
+}
+.shouji .left .info .text1{
+	font-size: 0.22rem;
+	margin:0 0 0 0.32rem ;
+	color: rgba(0,0,0,0.5);
+}
+.shouji .left .info .text2{
+	font-size: 0.28rem;
+	color: #ea625b;
+	margin:0 0 0 0.32rem ;
+
+}
+.shouji .right img{
+	width:100%;
+	height: 5.4rem;
+}
+.shouji .right .info{
+	width: 100%;
+	height: 2.25rem;
+}
+.shouji .right .info .text{
+	font-size: 0.28rem;
+	margin:0.4rem 0 0 0.32rem ;
+}
+.shouji .right .info .text1{
+	font-size: 0.22rem;
+	margin:0 0 0 0.32rem ;
+	color: rgba(0,0,0,0.5);
+}
+.shouji .right .info .text2{
+	font-size: 0.28rem;
+	color: #ea625b;
+	margin:0 0 0 0.32rem ;
+}
+.shouji .right .info .text2 del{
+	font-size: 0.22rem;
+	color:rgba(0,0,0,0.5);
+}
+/* 更多开始 */
+.gengduo{
+	width: 100%;
+	height: 1.53rem;
+}
+.gengduo div{
+	width: 100%;
+	height: 1.53rem;
+	border-top:0.02rem solid rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: center;
+}
+.gengduo>div i{
+	font-size: 0.4rem;
+	line-height:1.53rem;
+}
+/* 更多结束 */
+.zhineng{
+	width: 100%;
+	height: 4.875rem;
+	display: flex;
+}
+.zhineng .left{
+	width: 50%;
+	height: 4.875rem;
+}
+.zhineng .left img{
+	width: 100%;
+	height: 100%;
+}
+.zhineng .right{
+	width: 50%;
+	height: 4.875rem;
+}
+.zhineng .right .text{
+	font-size: .28rem;
+    color: rgba(0,0,0,0.87);
+	margin:1rem 0 0 0.3rem;
+}
+.zhineng .right .text1{
+	margin-top: .06rem;
+    font-size: .22rem;
+    line-height: .35rem;
+    color: rgba(0,0,0,0.54);
+	margin:0.1rem 0 0 0.3rem;
+}
+.zhineng .right .text2{
+	font-size: 0.28rem;
+	margin:0.4rem 0.3rem;
+	color: red;
+}
+.zhineng .left1{
+	width: 50%;
+	height: 4.875rem;
+}
+.zhineng .left1 .text{
+	font-size: .28rem;
+    color: rgba(0,0,0,0.87);
+	margin:1rem 0 0 0.3rem;
+}
+.zhineng .left1 .text1{
+	margin-top: .06rem;
+    font-size: .22rem;
+    line-height: .35rem;
+    color: rgba(0,0,0,0.54);
+	margin:1rem 0 0 0.3rem;
+}
+.zhineng .left1 .text2{
+	font-size: 0.28rem;
+	margin:0.4rem 0.3rem;
+	color: red;
+}
+.zhineng .right1{
+	width: 50%;
+	height: 4.875rem;
+}
+.zhineng .right1 img{
+	width: 100%;
+	height: 100%;
+}
+/* 手机结束 */
+.mijia-zn{
+	width: 100%;
+	height: 7.85rem;
+	background: #ABABAB;
+	display: flex;
+}
+.mijia-zn .left{
+	width:50%;
+	height: 100%;
+	background: #0000FF;
+}
+.mijia-zn .left img{
+	width: 100%;
+	height: 100%;
+}
+.mijia-zn .right{
+	width:50%;
+	height: 100%;
+	background: red;
+}
+.mijia-zn .right img{
+	width: 100%;
+	height: 100%;
+}
+/* 脚本开始 */
+.footer{
+	width:100%;
+	height:1.56rem;
+	background:#ffffff;
+	position: fixed;
+	bottom:0;
+	left:0;
+	display: flex;
+	box-shadow: 0 0.1rem 0.01rem 0.2rem rgba(0,0,0,0.09);
+}
+.shouye{
+	width: 25%;
+	height:1.56rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.shouye a img{
+	width: 0.6rem;
+	height: 0.6rem;
+	display: block;
+}
+.shouye a i{
+	font-size: 0.34rem;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+.shouye a .text1{
+	color: orange;
+}
+/* 脚本结束 */
+
+
