@@ -54,8 +54,11 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center ;
-	padding: ;
+	/* padding: ; */
 }	
+.lunfan .shang a i{
+	color: #626262;
+}
 .lunfan .shang i{
 	display: block;
 	font-size: 0.87rem;
