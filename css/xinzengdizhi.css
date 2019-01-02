@@ -1,0 +1,98 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+	/* background: #f5f5f5; */
+}
+.head{
+	width: 100%;
+	height: 1.56rem;
+	display: flex;
+	align-items: center;
+	background: #f2f2f2;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.head div{
+	font-size: 0.8rem;
+	margin: 0 0.48rem;
+	color: rgba(0,0,0,0.3);
+}
+.head span{
+	font-size: 0.48rem;
+	margin-left: 3rem;
+}
+/* 头部结束 */
+.kuai{
+	width:100%;
+	height: 1.56rem;
+}
+.shouhuoren{
+	width: 100%;
+	height: 1.65rem;
+	background: white;
+	border-bottom: 0.06rem solid rgba(0,0,0,0.08);
+}
+.shouhuoren i{
+	font-size: 0.45rem;
+	margin-left: 0.48rem;
+	color: #383838;
+}
+.shouhuoren1{
+	width: 100%;
+	height: 1.26rem;
+	background: white;
+	border-bottom: 0.06rem solid rgba(0,0,0,0.08);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shouhuoren1 i{
+	font-size: 0.45rem;
+	color: #383838;
+	margin-left: 0.48rem;
+}
+.shouhuoren1 input{
+	margin-right: 0.48rem;
+}
+/* 脚本开始 */
+.footer{
+	width:100%;
+	height:1.56rem;
+	background:#ff6801;
+	position: fixed;
+	bottom:0;
+	left:0;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0.1rem 0.01rem 0.2rem rgba(0,0,0,0.09);
+}
+.footer i{
+	font-size: 0.5rem;
+	color: white;
+	line-height:1.56rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

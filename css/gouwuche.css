@@ -1,0 +1,244 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+	/* background: #f5f5f5; */
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #f2f2f2;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.head div{
+	font-size: 0.8rem;
+	margin: 0 0.48rem;
+	color: rgba(0,0,0,0.3);
+}
+.head span{
+	font-size: 0.48rem;
+}
+/* 头部结束 */
+.qudenglu{
+	width: 100%;
+	height: 1.5rem;
+	margin-top: 1.5rem;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.qudenglu .left{
+	font-size: 0.46rem;
+	margin-left: 0.52rem;
+}
+.qudenglu .right{
+	font-size: 0.32rem;
+	margin-right: 0.42rem;
+}
+.wuping{
+	width: 100%;
+	height: 3.45rem;
+	border-bottom: 0.01rem solid rgba(0,0,0,0.2);
+	display: flex;
+}
+.wuping .left{
+	width: 3.86rem;
+	height: 3.45rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wuping .left input{
+	font-size: 0.3rem;
+	color: orange;
+	margin-left: 0.2rem;
+}
+.wuping .left img{
+	width: 2.8rem;
+	height: 2.8rem;
+	border: 0.01rem solid rgba(0,0,0,0.05);
+	margin-right: 0.2rem;
+}
+.wuping .right{
+	width: calc(100% - 3.86rem);
+	height: 100%;
+}
+.wuping .right .text1{
+	font-size:0.45rem;
+	display: block;
+	margin-top: 0.81rem;
+}
+.wuping .right .text2{
+	font-size:0.36rem;
+	display: block;
+}
+.wuping .right .text3{
+	width: 6.48rem;
+	height: 1.02rem;
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+}
+.wuping .right .text3 .left{
+	width: 2.79rem;
+	height: 0.99rem;
+	border: 0.01rem solid rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wuping .right .text3 .left .jiajian{
+	font-size: 0.95rem;
+}
+.wuping .right .text3 .left .num{
+	width: 0.99rem;
+	height: 0.99rem;
+	background: white;
+	line-height: 0.99rem;
+	font-size: 0.70rem;
+	text-align: center;
+	border: 0.01rem solid rgba(0,0,0,0.2);
+}
+.wuping .right .text3 .right{
+	width: 0.99rem;
+	height: 0.99rem;
+	display: flex;
+	align-items: center;
+}
+.wuping .right .text3 .right i{
+	font-size: 22px;
+}
+.tishi{
+	width: 100%;
+	height: 1.02rem;
+	background: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.02rem;
+	color: #bebebe;
+}
+.xihuan{
+	width: 100%;
+	height: 2.11rem;
+	background: #f5f5f5;
+}
+.xihuan img{
+	width: 100%;
+	height: 100%;
+}
+.shouji{
+	width: 100%;
+	height: 7.65rem;
+	display: flex;
+	justify-content: space-between;
+}
+.shouji div{
+	width:49.5% ;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.shouji .left img{
+	width:100%;
+	height: 5.4rem;
+}
+.shouji .left .info{
+	width: 100%;
+	height: 2.25rem;
+}
+.shouji .left .info .text{
+	font-size: 0.3rem;
+	margin:0.4rem 0 0 0.32rem ;
+}
+.shouji .left .info .text2{
+	font-size: 0.3rem;
+	color: #ea625b;
+	margin:0 0 0 0.32rem ;
+}
+.shouji .left .info .text2 del{
+	font-size: 0.2rem;
+	color:rgba(0,0,0,0.5);
+}
+.shouji .right img{
+	width:100%;
+	height: 5.4rem;
+}
+.shouji .right .info{
+	width: 100%;
+	height: 2.25rem;
+}
+.shouji .right .info .text{
+	font-size: 0.3rem;
+	margin:0.4rem 0 0 0.32rem ;
+}
+.shouji .right .info .text2{
+	font-size: 0.3rem;
+	color: #ea625b;
+	margin:0 0 0 0.32rem ;
+}
+.shouji .right .info .text2 del{
+	font-size: 0.2rem;
+	color:rgba(0,0,0,0.5);
+}
+/* 脚本开始 */
+.footer{
+	width:100%;
+	height:1.56rem;
+	background:#ffffff;
+	position: fixed;
+	bottom:0;
+	left:0;
+	display: flex;
+	box-shadow: 0 0.1rem 0.01rem 0.2rem rgba(0,0,0,0.09);
+}
+.footer .kuai1{
+	width: calc(100% / 3);
+	height: 100%;
+	background: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.footer .kuai1 i{
+	font-size: 0.27rem;
+	display: block;
+}
+.footer .kuai1 div{
+	font-size: 0.28rem;
+	color: orange;
+	display: block;
+}
+.footer .kuai1 div span{
+	font-size: 0.27rem;
+		color: #747474;
+}
+.footer .kuai2{
+	width: calc(100% / 3);
+	height: 100%;
+	background: #f4f4f4;
+	font-size: 0.42rem;
+
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer .kuai3{
+	width: calc(100% / 3);
+	height: 100%;
+	background: #ff6801;
+	font-size: 0.42rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* 脚本结束 */
+
