@@ -19,6 +19,7 @@
 }
 a{
 	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
 }
 ul,li{
 	list-style: none;

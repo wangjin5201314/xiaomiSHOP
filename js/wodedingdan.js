@@ -7,7 +7,7 @@ let bottomlist = document.querySelector(".box");
 			toplist.forEach((ele)=>{
 				ele.classList.remove("xz");
 			});
-			this.classList.add("xz");
+			toplist[index].classList.add("xz");
 		}
 	});
 }

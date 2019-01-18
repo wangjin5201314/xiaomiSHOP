@@ -41,6 +41,7 @@
 	overflow-y: auto;
 	background: #fefefe;
 	border-right: 0.06rem solid rgba(0,0,0,0.06);
+	position: relative;
 }
 .zhongjian .left::--webkit-scrollbar{
 	width: 0;
@@ -64,6 +65,13 @@
 	width: 8.52rem;
 	height: 100%;
 	overflow-y: auto;
+	position: relative;
+}
+.zhongjian .right::--webkit-scrollbar{
+	width: 0;
+}
+.zhongjian .right li{
+	width: 100%;
 }
 .zhongjian .right .guanggao{
 	width: 7.52rem;
